@@ -1,9 +1,3 @@
-# z=''
-# nama = 'arif'
-# deret =list(nama)
-# for row in len(nama):
-#     row.append(z)
-   
 nama = 'Code' # set nama yang mau diuji
 def urai(kata): # set function dengan nama urai dan parameternya adalah kata
     z=[]
@@ -14,4 +8,6 @@ def urai(kata): # set function dengan nama urai dan parameternya adalah kata
     gabung =''.join(z) #setelah itu ubah list z menjadi string dengan cara di gabung
     return gabung # kembalikan value yang ada di gabung
 print (urai(nama)) # cetak return pada fungsi urai
+
+
 
